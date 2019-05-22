@@ -1,4 +1,6 @@
 #! /data/data/com.termux/files/usr/bin/python3
+import speechrecogniser as sr
+
 print ("HELLOW WORLD!")
 list1 = ["Santosh" , "Prabha" , "Rahul" , "Sunita" , "Adhya" , "Arya" , "Bhavya" ]
 print (len(list1))
