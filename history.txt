@@ -1,0 +1,15 @@
+pkg install git -y
+pkg install python -yo
+termux-setup-storage
+git config --global user.name "Santosh Kumar Vishwakarma"
+git config --global user.email "santosh2alp@gmail.com"
+git config --all
+git config --list
+git config --global user.name "Santosh Kumar Vishwakarma"
+pkg install figlet -y
+cd usr/bin/
+rm -rf motd
+nano bash.bashrc 
+pkg inatall curl -y
+sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+
